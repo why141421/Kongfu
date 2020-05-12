@@ -17,6 +17,7 @@ public class TestTopic {
     @Test
     public void sendTextQueue(){
         topicProducer.sendTextMessage("欢迎来优就业学习！!!!!!!");
+        System.out.println("give it someting different");
     }
 
     @Test
